@@ -1,0 +1,158 @@
+head {
+  background-color: #FFD700;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+   }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:antiquewhite;
+}
+
+
+li {
+    float: left;
+}
+
+ li {
+    display: block;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+ li:hover {
+    background-color: mintcream;
+ }
+    li {
+        border-right: 1px solid #bbb;
+    }
+    
+   li a:last-child {
+        border-right: none;
+    }
+    body{
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        grid-area: header;
+        background-color:bisque;
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+      }
+      footer {
+        grid-area: footer;
+        background-color:gainsboro;
+        padding: 50px;
+        text-align: center
+         }
+h1  {
+    font-size:50px;
+    color:  rgb(14, 33, 77);
+    margin: 100px;
+    text-shadow: 2px 2px rgb(97, 140, 234);
+}
+h2 {
+    font-size: 40px;
+    color:  rgb(12, 54, 132);
+    margin: 50px;
+    text-shadow: 2px 2px 5px rgb(157, 143, 188);
+}
+h3 {
+    font-size: 30px;
+    color: rgb(12, 54, 132);
+    margin: 50px;
+    text-shadow: 2px 2px 5px rgb(157, 143, 188);
+}
+h4 {
+    font-size: 30px;
+    color: rgb(12, 54, 132);
+    margin: 50px;
+    text-shadow: 2px 2px 5px rgb(157, 143, 188)n;
+}
+body {
+  background-color: cornsilk;
+
+}
+p {
+    font-size: 20px;
+    color: rgb(59, 89, 120);
+    margin-left: 80px;
+    padding-left: 80px;
+}
+ol {
+    font-size:  20px;
+    color: rgb(59, 89, 120);
+    margin-left: 80px;
+    padding-left: 80px;
+}
+a {
+    font-size:  18px;
+    color:black ;
+    margin-left: 80px;
+    padding-left: 80px;
+    text-shadow: 2px 2px 5px rgb(212, 177, 210);
+}
+
+.container-buttons {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.7;
+    display:block;
+
+  }
+  
+  
+.fa-twitter {
+    background-color: thistle;
+    color: rgb(51, 153, 216);
+    font-size: 30px;
+    border-radius: 50%;
+    
+
+  }
+  .fa-instagram {
+    background-color: thistle;
+    color: rgb(148, 53, 153);
+    font-size: 30px;
+    border-radius: 50%;
+  }
+
+  .but {
+    background-color: pink; 
+    border: none;
+    color: tan;
+    padding: 32px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid black;
+  }
+  .but:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .but span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+ img  {
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(9, 31, 119, 0.458);
+  }
